@@ -110,8 +110,8 @@
               <div class="carousel__horizontal">
                 <div class="carousel__wrapper">${itemsHTML}</div>
               </div>
-              <div class="carousel__nav prev">${carouselArrowIcon}</div>
-              <div class="carousel__nav next">${carouselArrowIcon}</div>
+              <button class="carousel__nav prev">${carouselArrowIcon}</button>
+              <button class="carousel__nav next">${carouselArrowIcon}</button>
             </div>
           </div>
         </div>
@@ -237,6 +237,9 @@
           height: 24px;
           top: 50%;
           transform: translateY(-50%);
+          border: none;
+          background-color: transparent;
+          outline: none;
           cursor: pointer;
           user-select: none;
         }
